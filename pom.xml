@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.programmingtechie</groupId>
+    <groupId>com.programming.techie</groupId>
     <artifactId>springboot-microservice-study</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -24,7 +24,6 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencyManagement>
