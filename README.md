@@ -38,6 +38,7 @@ public class ProductServiceApplication {
 
 <h3 align="center">Componentes da Aplicação:</h3>
 
+- [API gateway](https://github.com/JG-OLIVEIRA/api-gateway)
 - [Discovery Server](https://github.com/JG-OLIVEIRA/discovery-server)
 - [Product Service](https://github.com/JG-OLIVEIRA/product-service)
 - [Order Service](https://github.com/JG-OLIVEIRA/order-service)
