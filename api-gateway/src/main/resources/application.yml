@@ -24,7 +24,7 @@ spring:
             - Path=/eureka/**
   security:
     oauth2:
-      resourceserver:
+      resource-server:
         jwt:
           issuer-uri: http://localhost:8181/realms/spring-boot-microservices-realm
 

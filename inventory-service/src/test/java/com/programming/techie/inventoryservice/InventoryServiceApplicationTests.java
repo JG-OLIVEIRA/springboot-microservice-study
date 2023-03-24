@@ -1,4 +1,4 @@
-package com.programming.techie.orderservice;
+package com.programming.techie.inventoryservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.programming.techie.orderservice.controller;
+package com.programming.techie.inventoryservice.controller;
 
 
 import java.util.List;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.programming.techie.orderservice.dto.InventoryResponse;
-import com.programming.techie.orderservice.services.InventoryService;
+import com.programming.techie.inventoryservice.services.InventoryService;
+import com.programming.techie.inventoryservice.dto.InventoryResponse;
 
 import lombok.RequiredArgsConstructor;
 

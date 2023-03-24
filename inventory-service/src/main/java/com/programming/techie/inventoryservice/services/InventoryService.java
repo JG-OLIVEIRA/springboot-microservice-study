@@ -1,31 +1,37 @@
-package com.programming.techie.orderservice.services;
+package com.programming.techie.inventoryservice.services;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
+import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.programming.techie.orderservice.repository.InventoryRepository;
-import com.programming.techie.orderservice.dto.InventoryResponse;
+import com.programming.techie.inventoryservice.repository.InventoryRepository;
+import com.programming.techie.inventoryservice.dto.InventoryResponse;
 
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class InventoryService {
 
     private final InventoryRepository inventoryRepository;
 
     @Transactional(readOnly = true)
+    @SneakyThrows
     public List<InventoryResponse> isInStock(List<String> skuCode){
+        log.info("Wait Started");
+        Thread.sleep(10000);
+        log.info("Wait Ended");
         return inventoryRepository.findBySkuCodeIn(skuCode).stream()
                 .map(inventory ->
                     InventoryResponse.builder()
                             .skuCode(inventory.getSkuCode())
                             .isInStock(inventory.getQuantity() > 0)
                             .build()
-                ).collect(Collectors.toList());
+                ).toList();
     }
 
 }

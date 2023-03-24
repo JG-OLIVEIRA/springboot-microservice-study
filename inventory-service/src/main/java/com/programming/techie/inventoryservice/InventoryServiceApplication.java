@@ -1,12 +1,12 @@
-package com.programming.techie.orderservice;
+package com.programming.techie.inventoryservice;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.programming.techie.orderservice.model.Inventory;
-import com.programming.techie.orderservice.repository.InventoryRepository;
+import com.programming.techie.inventoryservice.model.Inventory;
+import com.programming.techie.inventoryservice.repository.InventoryRepository;
 
 @SpringBootApplication
 public class InventoryServiceApplication {

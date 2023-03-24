@@ -1,4 +1,4 @@
-package com.programming.techie.orderservice.model;
+package com.programming.techie.inventoryservice.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
