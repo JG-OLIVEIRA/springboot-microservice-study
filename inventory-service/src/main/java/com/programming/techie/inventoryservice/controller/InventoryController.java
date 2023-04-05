@@ -1,6 +1,5 @@
 package com.programming.techie.inventoryservice.controller;
 
-
 import java.util.List;
 
 import org.springframework.http.HttpStatus;
