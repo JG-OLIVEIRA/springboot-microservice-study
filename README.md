@@ -45,12 +45,6 @@ public class ProductServiceApplication {
 - [Inventory Service](https://github.com/JG-OLIVEIRA/inventory-service)
 - [Notification Service](https://github.com/JG-OLIVEIRA/notification-service)
 
-<h3 align="center">Arquitetura do Projeto:</h3>
-<img src="https://gcdnb.pbrd.co/images/oWrlnSAn7EfR.png?o=1">
-
-<h3 align="center">Arquitetura da Requisição:</h3>
-<img src="https://gcdnb.pbrd.co/images/5HaCSzLBTRLA.png?o=1">
-
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - Java 17
